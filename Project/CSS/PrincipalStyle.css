@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(47, 46, 46);
+    overflow-x: hidden;
+}
+
+.Top-section {
+    position: absolute;
+    background-color: rgb(7, 115, 246);
+    width: 100%;
+    height: 20%;
+}
+
+.Nike-Logo {
+    position: absolute;
+    width: 18%;
+    left: 44rem;
+    bottom: -1ch;
+}
+
+.Section-Icon {
+    display: flex;
+    gap: 5vh;
+    position: relative;
+    left: 95rem;
+    top: 8.2vh;
+    background-color: rgb(2, 69, 224);
+    padding: 3vh;
+    border-radius: 10px;
+}
+
+.Icon-Section {
+    width: 50px;
+}
+
+.Principal-Section {
+    position: absolute;
+    left: 7vh;
+    top: 30vh;
+    background-color: rgb(18, 18, 18);
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    padding: 4vh;
+}
+
+.Slide-Tenes {
+    background-image: url(../assets/produtos/tenis-sapatos/jorda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 43%;
+    height: 70%;
+    border-radius: 10px;
+    padding: 6vh;
+    position: absolute;
+    left: 53.2rem;
+    top: 2.2rem;
+    animation: trocaTenis 9s infinite ease;
+
+}
+
+.Tenis_section {
+    position: absolute;
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+.Section-Teniscolor {
+    bottom: 40rem;
+    width: 80rem;
+    height: 40rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.Escolher-Tennis {
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    background-color: rgb(246, 243, 243);
+    border-radius: 10px;
+    left: 5vh;
+    top: 8vh;
+}
+
+
+.Kaido-Logo {
+    width: 50%;
+    position: relative;
+    left: 58vh;
+    bottom: 22vh;
+}
+
+.Jordan-Logo {
+    width: 30%;
+    position: relative;
+    bottom: 1vh;
+    left: 30%;
+}
+
+.Section-Seutenis {
+    position: absolute;
+    top: 15vh;
+
+}
+
+.Color-Tenis {
+    background-color: rgb(7, 115, 246);
+    width: 100%;
+    height: 40%;
+}
+
+.RickMorty-Logo {
+    width: 20%;
+    position: absolute;
+    right: 80%;
+    top: 44%;
+}
+
+.Color-Section {
+    display: flex;
+    padding: 2vh;
+    gap: 2vh;
+    position: absolute;
+    left: 25vh;
+    top: 24vh;
+}
+
+input {
+    width: 5vh;
+    padding: 2vh;
+}
+
+
+@keyframes trocaTenis {
+    0% {
+        background-image: url('../assets/produtos/tenis-sapatos/Jorda.jpg');
+    }
+
+    33% {
+        background-image: url('../assets/produtos/tenis-sapatos/Jorda2.jpg');
+    }
+
+    66% {
+        background-image: url('../assets/produtos/tenis-sapatos/Jorda3.jpg');
+    }
+
+    80% {
+        background-image: url('../assets/produtos/tenis-sapatos/jordan4.jpg');
+    }
+
+    100% {
+        background-image: url('../assets/produtos/tenis-sapatos/Jorda.jpg');
+    }
+}
